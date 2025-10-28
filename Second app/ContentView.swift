@@ -111,8 +111,12 @@ struct ContentView2: View {
                                     .fontWeight(.bold)
                                     .cornerRadius(30)
                                     .padding(.horizontal, 40)
-                                    .glassEffect()
+                                    
+                                
+                                
                             }
+                            
+                            
                             .position(x: 200, y: 160)
                         }
                     }
@@ -326,6 +330,7 @@ private struct PlantRow: View {
                         Image(systemName: "checkmark.circle.fill")
                             .foregroundColor(.baseGreen)
                             .font(.system(size: 28))
+                            
                     }
                 }
             }

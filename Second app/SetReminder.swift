@@ -36,7 +36,9 @@ struct SetReminder: View {
                                 .foregroundColor(.white)
                                 .frame(width: 44, height: 44)
                                 .background(Circle().fill(Color.black))
-                        }
+                                .glassEffect(.clear.interactive().tint(.baseGreen))
+                                
+                        }.buttonStyle(.plain)
                         Spacer()
                         Text("Set Reminder").font(.headline)
                         Spacer()
@@ -54,8 +56,11 @@ struct SetReminder: View {
                                 .foregroundColor(.white)
                                 .frame(width: 44, height: 44)
                                 .background(Circle().fill(Color.baseGreen))
-                        }
+                                .glassEffect(.clear.interactive().tint(.baseGreen))
+
+                        }.buttonStyle(.plain)
                     }
+                   
                     .padding(.horizontal, 20)
                     .padding(.top, 10)
 
@@ -93,6 +98,7 @@ struct SetReminder: View {
                         row(label: "Watering Days", systemImage: "drop") {
                             Menu { ForEach(wateringOptions, id: \.self) { w in Button(w){ selectedWatering = w } } }
                             label: { trailingPickerText(selectedWatering) }
+                                
                         }
                         Divider().background(Color.white.opacity(0.08))
                         row(label: "Water", systemImage: "drop") {

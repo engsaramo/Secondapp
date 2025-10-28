@@ -85,7 +85,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C6AE4F272EA656FF0025DFAE /* Build configuration list for PBXProject "Second app" */;
+			buildConfigurationList = C6AE4F272EA656FF0025DFAE /* Build configuration list for PBXProject "Planto" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -309,7 +309,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C6AE4F272EA656FF0025DFAE /* Build configuration list for PBXProject "Second app" */ = {
+		C6AE4F272EA656FF0025DFAE /* Build configuration list for PBXProject "Planto" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C6AE4F352EA657000025DFAE /* Debug */,
